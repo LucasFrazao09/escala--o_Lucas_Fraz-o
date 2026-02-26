@@ -1,10 +1,11 @@
 #icon{
-    height: 62px;
+    height: 70px;
 
 }
 
 body{
 margin: 0;
+background-color: #dadada;
 }
 
 nav{
@@ -17,5 +18,35 @@ background-color: black;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: aliceblue;
 
+
+}
+
+#noticias {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(255, 187, 0);
+    margin: 40px;
+}
+
+.noticia{
+    background-color: rgba(201, 187, 0, 0.76);
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.img_noticia {
+
+    height: 275px;
+}
+
+footer{
+background-color: black;
+padding: 5px;
+text-align: center;
+color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 }

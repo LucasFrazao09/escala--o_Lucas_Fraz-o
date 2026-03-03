@@ -5,7 +5,8 @@
 
 body{
 margin: 0;
-background-color: #dadada;
+background-color: #ebebeb;
+padding: 20px;
 }
 
 nav{
@@ -54,75 +55,37 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 #jogadores{
 
-  justify-content: space-between;
+  justify-content: center;
     display: flex;
-    flex: wrap;
-    background-color: rgb(255, 187, 0);
+flex: wrap;
+    background-color: rgb(0, 0, 0);
+   gap: 15px;
     margin: 40px;
-}
-
-.ala_direito{
-    
-  
- background-color: rgba(201, 187, 0, 0.76);
-    border: 5px solid rgb(0, 0, 0);
-    margin: 5px;
-
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-
-}
-.img_alad{
-
-   height: 120px;
-}
- .ala_esquerdo{
-    
-  
- background-color: rgba(201, 187, 0, 0.76);
-    border: 5px solid rgb(0, 0, 0);
- margin: 5px;
- 
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-
-}
-.img_alae{
-
-   height: 120px;
-}   
- .fixo{
-    
-  
- background-color: rgba(201, 187, 0, 0.76);
-    border: 5px solid rgb(0, 0, 0);
-   margin: 5px;
-    ;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-
-}
-.img_fixo{
-
-   height: 120px;
-}   
-.pivo{
-    
-  
- background-color: rgba(201, 187, 0, 0.76);
-    border: 5px solid rgb(0, 0, 0);
- margin: 5px;
    
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
+.jogador{
+ display: flex;
+ flex-direction: column;
+ background-color: #eebe1fe0;
+ align-items: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding: 10px;
+ width: 190px;
+border: 2px solid white;
+}
+
+.jogador_img{
+width: 190px;
+margin: 2px;
+border: 5px solid white;
 
 }
-.img_pivo{
 
-   height: 120px;
-}   
+hr{
+   color: black;
+   
+}
+
 
